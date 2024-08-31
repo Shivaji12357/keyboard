@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(159, 159, 231);
+    align-items: center;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    margin-top: 300px;
+}
+.keyboard{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.keyboard input{
+    width: 650px;
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    direction: ltr;
+    font-size: 20px;
+    color: blueviolet;
+    background-color: aqua;
+}
+.key input{
+
+    width:50px;
+    height:30px;
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    background-color:black;
+    margin-bottom: 5px;
+}
+.key1 input{
+    width: 48px;
+    height: 30px;
+    color:white;
+    font-size: 20px;
+    background-color: black;
+    margin-bottom: 5px;
+}
+.key2 input{
+    width: 42px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+input:hover{
+    color:red;
+    box-shadow: 10px 10px 10px mediumblue;
+}
